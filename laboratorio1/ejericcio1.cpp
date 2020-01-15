@@ -3,9 +3,20 @@
 #include <stdio.h>
 using namespace std;
 
-bool esPrimo(int n){
+bool prime(int n);
+int add(void);
+ 
+int main(){
+    //mando a llamar a la funcion add//
+    add();
+    
+    return 0;
+}
+
+bool prime(int n){
     if(n == 2)
         return true;
+        //verifico si no es 2 si el numero es primo o no con un bool//
     else{
         for(int i = 2; i <= sqrt(n); i++){
             if(n % i == 0)
@@ -15,24 +26,14 @@ bool esPrimo(int n){
     }
 }
 
-int suma(void){
+
+int add(void){
     int sum = 0;
+    //sumo en un acumulador si es primo//
     for(int i = 2; i <= 100; i++){
-        if(esPrimo(i) == true)
+        if(prime(i) == true)
             sum += i;
     }
+    cout<<sum;
     return sum;
-}
-
-int main(){
-    int numeros[100];
-    int acum=0;
-    
-    for (int i = 0; i < 101; i++)
-    {
-        numeros[i]=i;
-    }
-    suma(numeros,acum);
-    
-    return 0;
 }
