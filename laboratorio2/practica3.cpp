@@ -5,12 +5,10 @@ using namespace std;
 void print(char *printarray[], int size);
 
 int main(void)
-{
+{   char *array;
     int size=0;
     cout<<"digite la cantidad de letras: \n";
-    cin<<size;
-
-    char *array;
+    cin>>size;
     array= new char[size];
 
     for(int i=0; i< size;i++){
@@ -23,6 +21,6 @@ int main(void)
 
 void print(char *printarray[], int size){
     for(int i=0; i<size;i++){
-        cout<<"letra "<<printarray[i]<<endl;
+        cout<<"letra "<<*printarray[i]<<endl;
     }
 }
