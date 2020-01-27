@@ -50,3 +50,15 @@
 * ninguna
 * solo saber como obtener los numero en orden inverso
 * ni idea como hacerlo
+
+## Laboratorio 05
+
+### Observaciones al instructor
+* muy buena explicacion de los temas a dar
+* comprecion mas facil de pilas desde 0
+* Obs 3
+
+### Dificultades en ejercicios de tarea
+* ninguna
+* Dif 2
+* Dif 3
