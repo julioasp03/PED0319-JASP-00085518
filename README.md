@@ -62,3 +62,15 @@
 * ninguna
 * Dif 2
 * Dif 3
+
+## Laboratorio 05
+
+### Observaciones al instructor
+* muy buena explicacion de los temas a dar
+* Obs 2
+* Obs 3
+
+### Dificultades en ejercicios de tarea
+* Dif 1
+* Dif 2
+* Dif 3
